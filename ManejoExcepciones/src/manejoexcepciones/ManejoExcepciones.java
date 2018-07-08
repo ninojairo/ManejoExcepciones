@@ -39,6 +39,9 @@ public class ManejoExcepciones {
         
         MiRecurso miRecurso = new MiRecurso();
         ManejoRecurso manejoRecurso = new ManejoRecurso(miRecurso);
+        manejoRecurso.abrirRecurso();
+        manejoRecurso.cerrarRecurso();
+        
         
 
     }
