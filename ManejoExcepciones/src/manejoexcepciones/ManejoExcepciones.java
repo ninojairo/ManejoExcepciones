@@ -28,10 +28,10 @@ public class ManejoExcepciones {
 
         DivisionPorCero divisionPorCero = new DivisionPorCero(13);
         //divisionPorCero.divisionporcerounchecked();
-        divisionPorCero.divisionporcerocheckedinterno();
+        divisionPorCero.divisionPorCeroCheckedInterno();
 
         try {
-            divisionPorCero.divisionporcerocheckedexterno();
+            divisionPorCero.divisionPorCeroCheckedExterno();
 
         } catch (ArithmeticException e) {
             System.out.println("Excepcion Capturada Externa: Division por cero detectada");

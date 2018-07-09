@@ -20,11 +20,11 @@ public class DivisionPorCero {
 
     }
 
-    public void divisionporcerounchecked() {
+    public void divisionPorCeroUnchecked() {
         cociente = this.numerador / this.DENOMINADOR;
     }
 
-    public void divisionporcerocheckedinterno() {
+    public void divisionPorCeroCheckedInterno() {
         try {
             cociente = this.numerador / this.DENOMINADOR;
             throw new ArithmeticException();
@@ -36,7 +36,7 @@ public class DivisionPorCero {
 
     }
     
-    public void divisionporcerocheckedexterno() throws ArithmeticException{
+    public void divisionPorCeroCheckedExterno() throws ArithmeticException{
         cociente = this.numerador / this.DENOMINADOR;
     }
     

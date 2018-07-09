@@ -35,7 +35,7 @@ public class ManejoRecurso {
 
     public void cerrarRecurso() {
         try {
-            miRecurso.open();
+            miRecurso.close();
 
         } catch (Exception e) {
             System.out.println("Excepcion capturada");
