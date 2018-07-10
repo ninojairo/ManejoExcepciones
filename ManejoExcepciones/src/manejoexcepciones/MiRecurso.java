@@ -19,7 +19,8 @@ public class MiRecurso implements AutoCloseable {
     
     @Override
     public void close() throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Recurso cerrado");
+       
     }
     
     public void open() throws FileNotFoundException{
